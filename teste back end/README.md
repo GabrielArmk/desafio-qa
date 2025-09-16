@@ -39,10 +39,12 @@ A estrutura de pastas e arquivos segue as convenções do Behave, garantindo org
    python -m venv venv
    venv\Scripts\activate     # Windows
 3. Instale as dependências listadas em requirements.txt
+    ```bash
     pip install -r requirements.txt
 4. Como Executar os Testes:
     Certifique-se de estar no diretório raiz do projeto (onde está o arquivo requirements.txt).
     Execute os testes com o comando:
+    ```bash
         behave
     O Behave executará todas as features na ordem definida pelos nomes dos arquivos (prefixados com números para garantir a sequência correta: criação de usuário, geração de token, etc.).
     A saída no terminal mostrará o resultado de cada cenário (passou, falhou ou erro).
