@@ -46,5 +46,7 @@ A estrutura de pastas e arquivos segue as convenções do Behave, garantindo org
     Execute os testes com o comando:
     ```bash
         behave
+    ```
     O Behave executará todas as features na ordem definida pelos nomes dos arquivos (prefixados com números para garantir a sequência correta: criação de usuário, geração de token, etc.).
+
     A saída no terminal mostrará o resultado de cada cenário (passou, falhou ou erro).
