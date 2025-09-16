@@ -11,14 +11,20 @@ Abaixo está a organização das pastas e arquivos do projeto:
     
     - `steps/`
       
-      - `test_form_steps.py` # Implementação dos passos do Behave
+      - `test_steps.py` # Implementação dos passos do Behave
         
     - `test_form.feature` # Cenário BDD em linguagem natural
+   
+    - `test_elements.feature`
+   
+    - `test_progress_bar.feature`
+   
+    - `test_window.feature`
       
-    - `arg.txt` # Argumentos para upload no formulário
+    - `arg.txt`
       
-- `README.md` # Documentação
-- `requirements.txt` # Pacotes Python necessários
+- `README.md`
+- `requirements.txt`
 
 ## Instalar pacotes
 
@@ -26,9 +32,13 @@ pip install -r requirements.txt
 
 ## Como rodar o projeto
 
-behave
+### Na pasta 'teste front end' execute o codigo no cmd:
 
+```bash
+behave
+```
 ## Descrição
 
 
 O teste abrirá o navegador, preencherá o formulário e validará se o modal de confirmação aparece.
+
